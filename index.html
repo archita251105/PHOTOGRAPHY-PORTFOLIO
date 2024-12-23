@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capture Bliss Photography</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">Capture Bliss Photography</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#offers">Offers</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Capture Bliss Photography</h1>
+            <p>Transforming your moments into timeless memories.</p>
+            <a href="#contact" id="bookSessionBtn" class="btn-primary">Book a Session</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="about-content">
+            <div class="text">
+                <h2>About Me</h2>
+                <p>Hi, I’m Capture Bliss, a professional photographer with over 10 years of experience in capturing beautiful memories. Specializing in portrait, landscape, and event photography, I bring creativity and passion to every frame.</p>
+                <p>Contact: <strong>+91 8126308621</strong></p>
+            </div>
+            <img src="Images/background image.jpg" alt="Photographer" class="profile-pic">
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section portfolio">
+        <h2>Portfolio</h2>
+        <div class="gallery">
+            <img src="Images/portfolio1.jpeg" alt="Gallery Photo">
+            <img src="Images/portfolio2.webp" alt="Gallery Photo">
+            <img src="Images/portfolio3.jpg" alt="Gallery Photo">
+            <img src="Images/portfolio3.webp" alt="Gallery Photo">
+        </div>
+    </section>
+
+    <!-- Offers Section -->
+    <section id="offers" class="section offers">
+        <h2>Exclusive Offers</h2>
+        <div class="offers-container">
+            <div class="offer">
+                <h3>Basic Package</h3>
+                <p>Includes 2-hour session and 20 edited photos.</p>
+                <a href="#contact" class="btn-secondary">Book Now</a>
+            </div>
+            <div class="offer premium">
+                <h3>Premium Package</h3>
+                <p>Includes 4-hour session, 50 edited photos, and a photobook.</p>
+                <a href="#contact" class="btn-secondary">Book Now</a>
+            </div>
+            <div class="offer">
+                <h3>Event Coverage</h3>
+                <p>Full day event coverage with unlimited photos.</p>
+                <a href="#contact" class="btn-secondary">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="section categories">
+        <h2>Photography Categories</h2>
+        <div class="categories-container">
+            <div class="category">
+                <img src="Images/portrait.jpeg" alt="Portrait">
+                <h3>Portrait</h3>
+            </div>
+            <div class="category">
+                <img src="Images/landscape.webp" alt="Landscape">
+                <h3>Landscape</h3>
+            </div>
+            <div class="category">
+                <img src="Images/wedding.jpg" alt="Wedding">
+                <h3>Wedding</h3>
+            </div>
+            <div class="category">
+                <img src="Images/events.webp" alt="Events">
+                <h3>Events</h3>
+            </div>
+            <div class="category">
+                <img src="Images/wildlife.jpg" alt="Wildlife">
+                <h3>Wildlife</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="number" name="number" placeholder="Your Contact Number" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Capture Bliss Photography. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+
+
